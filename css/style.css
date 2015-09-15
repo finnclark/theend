@@ -1,0 +1,261 @@
+/*Main*/
+
+@font-face {
+	font-family: chicago;
+	src: url(../fonts/ChicagoFLF.ttf);
+}
+
+h1{
+	font-family: "chicago", Monaco, sans-serif;
+	font-size: 25px;
+	color: #272727;
+}
+
+p{
+	font-family: Monaco, sans-serif;
+}
+
+i{
+	font-style: normal;
+}
+
+a{
+	color: #272727;
+}
+a:hover{
+	color: #272727;
+	border-bottom: 2px solid #272727;
+}
+
+body{
+	background-color: #F4F4F4;
+}
+
+
+
+
+
+
+/*Header*/
+
+
+
+
+
+.header h1{
+	margin: 27px 0 0 20px;
+}
+
+.header img{
+	width: 60px;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+#countdowntimer{
+	text-align: center;
+	margin-top: 250px;
+}
+
+#countdowntimer span{
+	color: #272727;
+	background-color: transparent;
+	border: none;
+	font-family: "chicago", Monaco, sans-serif;
+	font-size: 60px;
+	margin: 0 auto;
+	display: inline;
+	position: relative;
+	top: 20px;
+}
+
+.triggers{
+	z-index: 1;
+}
+
+.triggers img{
+	height: 60px;
+	width: auto;
+	margin: 0;
+}
+
+.triggers span{
+	width: inherit;
+	font-family: Monaco;
+	display: block;
+	text-align: left;
+	margin-top: 20px;
+	color: #272727;
+	border-top: 2px solid #272727;
+	padding-top: 12px;
+	display: none;
+}
+
+.triggers span:hover, a:hover{
+	text-decoration: none;
+}
+
+.triggers a:hover > span{
+	display: initial;
+	display: block;
+}
+
+.triggers a:hover{
+	border-bottom: none;
+}
+
+.about-trigger{
+	position: absolute;
+	left: 290px;
+	top: 125px;
+}
+
+.people-trigger{
+	position: absolute;
+	left: 1000px;
+	top: 40px;
+}
+
+.progress-trigger{
+	position: absolute;
+	top: 440px;
+	left: 200px;
+}
+
+.contact-trigger{
+	position: absolute;
+	left: 1200px;
+	top: 395px;
+}
+
+
+
+
+/*About*/
+
+.navigation{
+	display: inline-block;
+}
+
+
+.navigation a{
+	position: initial;
+	float: right;
+	margin: 35px 30px;
+}
+
+.navigation span{
+	text-align: right !important;
+}
+
+.navigation a:hover > span {
+    position: relative;
+    margin-bottom: -60px;
+}
+
+.navigation .active span{
+	position: relative;
+	display: block;
+}
+
+.navigation .about-trigger span{
+	right: 5px;
+}
+.navigation .people-trigger span{
+	right: 12px;
+}
+.navigation .progress-trigger span{
+	right: 20px;
+}
+.navigation .contact-trigger span{
+	right: 14px;
+}
+
+
+.navigation .active:hover, .navigation .active{
+	margin-right: 25px;
+}
+
+.navigation .people-trigger:hover{
+	margin-right: 3px;
+}
+
+.navigation .progress-trigger:hover{
+	margin-right: -8px;
+}
+
+.navigation .contact-trigger:hover{
+	margin-right: 1px;
+}
+
+.navigation img{
+	height: 30px;
+}
+
+.countdown-small{
+	position: absolute;
+	bottom: 30px;
+	left: 20px;
+}
+
+.countdown-small div{
+	text-align: left !important;
+}
+
+.countdown-small img{
+	width: 20px !important;
+	margin-right: 15px !important;
+}
+
+.countdown-small span{
+	font-size: 20px !important;
+	top: 5px !important;
+}
+
+
+
+/*People Page*/
+
+
+.about-link-people:hover{
+	margin-right: 18px;
+}
+
+.people-link-people:hover, .people-link-people{
+	margin-right: 15px !important;
+}
+
+.progress-link-people span{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

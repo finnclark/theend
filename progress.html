@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The End of Graphic Design - AUT Year 3 Design Exhibition</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.countdownTimer.css" />
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+	<script type="text/javascript" src="js/sticky.min.js"></script>
+	<script type="text/javascript" src="js/jquery.countdownTimer.js"></script>
+	<script type="text/javascript" src="js/jquery.typer.js"></script>
+</head>
+<body>
+
+
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MCKX7C"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MCKX7C');</script>
+<!-- End Google Tag Manager -->
+
+
+
+	<div class="container-fluid">
+		<div class="header row">
+
+			<div class="col-md-6">
+				<h1><a href="index.html">The End <i data-typer-targets="of graphic design_,of illustration_,of the world_,of composition_,of photography_,of life drawing_,of students_,of computers_"></i></a></h1>
+			</div>
+
+			<div class="navigation triggers col-md-6">
+				<a class="contact-trigger" href="contact.html"><img src="img/speak.png"><span>Contact</span></a>
+				<a class="progress-trigger active" href="progress.html"><img src="img/bomb.png"><span>Progress</span></a>
+				<a class="people-trigger" href="people.html"><img src="img/machappy.png"><span>People</span></a>
+				<a class="about-trigger" href="about.html"><img src="img/package.png"><span>About</span></a>
+			</div>
+
+
+			<div class="col-md-12 countdown-small">
+				<!-- Countdown -->
+				<div id="countdowntimer"><img src="img/watch.png"><span id="future_date"><span></div>
+			</div>
+		
+		</div>
+	</div>
+
+	<script>
+		$(function () { $('[data-typer-targets]').typer(); });
+	</script>
+	
+	<script type="text/javascript">
+	      $(function(){
+	        $('#future_date').countdowntimer({
+	          dateAndTime : "2015/11/11 17:00:00",
+	          size : "lg"
+	        });
+	      });
+	</script>
+</body>
