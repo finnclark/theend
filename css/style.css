@@ -8,6 +8,7 @@
 h1{
 	font-family: "chicago", Monaco, sans-serif;
 	font-size: 25px;
+	text-transform: uppercase;
 	color: #272727;
 }
 
