@@ -195,14 +195,12 @@ String.prototype.rightChars = function(n){
   };
 
   $.fn.typeTo = function (newString) {
-    var
-      $e = $(this),
+    var $e = $(this),
       currentText = $e.text(),
       i = 0,
       j = 0;
 
     if (currentText === newString) {
-      console.log("Our strings our equal, nothing to type");
       return $e;
     }
 
@@ -213,9 +211,11 @@ String.prototype.rightChars = function(n){
 
     $e.data('typing', true);
 
-    while (currentText.charAt(i) === newString.charAt(i)) {
-      i++;
-    }
+    // This code below turns off the character replacing of repeated letters
+
+    // while (currentText.charAt(i) === newString.charAt(i)) {
+    //   i++;
+    // }
 
     while (currentText.rightChars(j) === newString.rightChars(j)) {
       j++;
