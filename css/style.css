@@ -45,6 +45,7 @@ body{
 
 .row{
 	margin: 0;
+	width: 100%;
 }
 
 ul, li{
@@ -164,9 +165,9 @@ ul, li{
 
 
 .header-small{
-	height: 140px;
+	height: 120px;
 	background-color: #F4F4F4;
-	z-index: 99;
+	z-index: 999;
 	position: fixed;
 	width: 100%;
 }
@@ -192,6 +193,8 @@ ul, li{
 	position: absolute !important;
 	border: none !important;
 	padding: 0;
+	font-size: 12px;
+	margin-top: 10px;
 }
 
 .navigation a:hover > img {
@@ -218,19 +221,19 @@ ul, li{
 
 
 .navigation .about-trigger span{
-	margin-left: -4px;
+	margin-left: -2px;
 }
 
 .navigation .people-trigger span{
-	margin-left: -11px;
+	margin-left: -9px;
 }
 
 .navigation .progress-trigger span{
-	margin-left: -16px;
+	margin-left: -12px;
 }
 
 .navigation .contact-trigger span{
-	margin-left: -12px;
+	margin-left: -9px;
 }
 
 
@@ -297,6 +300,10 @@ ul, li{
 	margin-bottom: 10px;
 }
 
+.name-mobile{
+	display: none;
+}
+
 .student-links{
 	font-size: 12px;
 }
@@ -317,7 +324,7 @@ ul, li{
 	background-color: #F4F4F4;
 	z-index: 8888;
 	margin-top: -150px;
-	width: 200px;
+	width: 150%;
 	height: 140px;
 }
 
@@ -360,11 +367,109 @@ ul, li{
 
 
 
+@media (max-width: 991px){
+	.links-cover{
+		width: 100%;
+	}
 
+	.people-container{
+		width: 100%
+	}
 
+	.letter-links{
+		font-size: 12px;
+		text-align: right;
+		padding-right: 30px;
+	}
+}
 
+@media (max-width: 767px){
+	.navigation a{
+		margin: 35px 16px;
+	}
 
+	.navigation img{
+		height: 24px;
+	}
 
+	.active img{
+		min-height: 41px;
+	}
+
+	.navigation a:hover > img {
+		min-height: 41px;
+	}
+
+	.navigation span{
+		font-size: 10px;
+	}
+
+	.header-small{
+		height: 110px;
+	}
+
+	.main-title-small h1{
+		font-size: 20px;
+		margin-left: 15px;
+	}
+}
+
+@media (max-width: 620px){
+	.name-column, .name-cover{
+		display: none;
+	}
+
+	.name-mobile{
+		display: inline-block;
+		margin-bottom: 30px;
+	}
+
+	.student-image-column{
+		width: 60%;
+	}
+
+	.student-links{
+		width: 40%;
+	}
+
+	.links-cover{
+		height: 185px;
+	}
+
+	.main-title-small, .navigation{
+		width: 100%;
+		position: absolute;
+	}
+
+	.navigation a{
+		float: right;
+		margin: 60px 30px 0 0;
+	}
+	.navigation a:first-child{
+		margin: 60px 15px 0 0;
+	}
+
+	.main-title-small h1{
+		font-size: 16px;
+		margin-top: 20px;
+	}
+
+	.header-small{
+		height: 135px;
+	}
+
+	.countdown-small{
+		display: none;
+	}
+
+	.letter-links{
+		text-align: center;
+		height: 60px;
+		font-size: 11px;
+		padding: 22px 0 0 0;
+	}
+
+}
 
 
 
