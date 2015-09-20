@@ -47,6 +47,12 @@ body{
 	margin: 0;
 }
 
+ul, li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
 
 
 
@@ -157,9 +163,18 @@ body{
 }
 
 
+.header-small{
+	height: 140px;
+	background-color: #F4F4F4;
+	z-index: 99;
+	position: fixed;
+	width: 100%;
+}
+
 
 
 /* Navigation Small = ABOUT / PEOPLE / PROGRESS / CONTACT */
+
 
 
 .navigation{
@@ -230,6 +245,7 @@ body{
 	position: fixed;
 	bottom: 30px;
 	margin: 0 0 0 30px; !important;
+	z-index: 102;
 }
 
 .countdown-small img{
@@ -249,8 +265,31 @@ body{
 
 .people-container{
 	width: 880px;
-	margin: 300px auto !important;
+	margin: 100px auto !important;
 	padding: 0;
+	z-index: 2;
+}
+
+.people-container .row{
+	padding-top: 200px;
+	margin-bottom: -140px;
+}
+
+.name-cover{
+	width: 400px;
+	margin-left: -50px;
+	margin-top: -85px;
+	height: 85px;
+	background-color: #F4F4F4;
+}
+
+.people-container h2, .student-links ul{
+	padding-top: 230px;
+	margin-top: -230px;
+}
+
+.student-image-column{
+	z-index: 99;
 }
 
 .student-image-column img{
@@ -262,6 +301,10 @@ body{
 	font-size: 12px;
 }
 
+.student-links p{
+	margin: 0;
+}
+
 .student-links p a{
 	display: inline-block;
 	margin-bottom: 10px !important;
@@ -270,9 +313,36 @@ body{
 	margin-bottom: 8px !important;
 }
 
+.links-cover{
+	background-color: #F4F4F4;
+	z-index: 8888;
+	margin-top: -150px;
+	width: 200px;
+	height: 140px;
+}
+
+.letter-links{
+	margin: 0 auto;
+	padding-top: 30px;
+	height: 80px;
+	z-index: 100;
+	background-color: #F4F4F4;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+}
 
 
 
+/*Sticky JS*/
+
+.stuck{
+	position: fixed;
+	top: 230px;
+}
+
+.stuck a{
+}
 
 
 
