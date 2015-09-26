@@ -14,6 +14,7 @@
 	<script type="text/javascript" src="js/jquery.countdownTimer.js"></script>
 	<script type="text/javascript" src="js/jquery.typer.js"></script>
 	<script type="text/javascript" src="js/sticky.min.js"></script>
+	<script type="text/javascript" src="js/instafeed.js"></script>
 </head>
 <body>
 
@@ -42,8 +43,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="navigation triggers col-md-6">
 					<a class="contact-trigger" href="contact"><img src="img/speak.png"><span>Contact</span></a>
 					<a class="progress-trigger active" href="progress"><img src="img/bomb.png"><span>Progress</span></a>
-					<a class="people-trigger active" href="people"><img src="img/machappy.png"><span>People</span></a>
+					<a class="people-trigger" href="people"><img src="img/machappy.png"><span>People</span></a>
 					<a class="about-trigger" href="about"><img src="img/package.png"><span>About</span></a>
+				</div>
+			</div>
+
+
+			<div class="col-md-12">
+				<div class="row">
+					<div class="col-md-12" id="instafeed"></div>
 				</div>
 			</div>
 
@@ -59,6 +67,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<script>
 		$(function () { $('[data-typer-targets]').typer(); });
 	</script>
+
+	<script type="text/javascript">
+				    var feed = new Instafeed({
+				        get: 'user',
+				        userId: '37019525',
+				        accessToken: '37019525.467ede5.db859cced3b04839afe6bc6af6cd7d60',
+				        clientId: 'finnsta_gram'
+				    });
+				    feed.run();
+				</script>
 	
 	<script type="text/javascript">
 	      $(function(){
