@@ -37,6 +37,7 @@ i{
 
 a{
 	color: #272727;
+	border: none;
 }
 a:hover{
 	color: #272727;
@@ -346,6 +347,29 @@ ul, li{
 	text-align: center;
 	position: fixed;
 	bottom: 0;
+}
+
+.letter-links a{
+	border: none !important;
+}
+
+.letter-links a:hover{
+	border-top: 2px solid #272727 !important;
+}
+
+
+
+
+.people-temp p{
+	width: inherit !important;
+	margin-bottom: 60px !important;
+}
+
+.countdown-people #countdowntimer{
+    position: initial;
+    margin: 0;
+    width: 100%;
+    text-align: center !important;
 }
 
 
