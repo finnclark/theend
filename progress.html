@@ -49,7 +49,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			</div>
 
 
-			<div class="col-md-12">
+			<div class="col-md-12 progress-container">
 				<div class="row">
 					<div class="col-md-12" id="instafeed"></div>
 				</div>
@@ -63,6 +63,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		
 		</div>
 	</div>
+	<script type="text/javascript">
+	    var feed = new Instafeed({
+	        get: 'user',
+	        // clientId: '0b73597237a64f1a9f02cb4b1deee4c1'
+	        userId: 37019525,
+	        accessToken: '37019525.467ede5.db859cced3b04839afe6bc6af6cd7d60'
+	    });
+	    feed.run();
+	</script>
 
 	<script>
 		$(function () { $('[data-typer-targets]').typer(); });

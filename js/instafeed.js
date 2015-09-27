@@ -7,11 +7,12 @@
             this.options = {
                 target: "instafeed",
                 get: "popular",
-                resolution: "thumbnail",
+                resolution: "standard_resolution",
                 sortBy: "none",
                 links: !0,
-                mock: !0,
-                useHttp: !0
+                mock: !1,
+                useHttp: !0,
+                limit: 8
             };
             if (typeof e == "object")
                 for (n in e) r = e[n], this.options[n] = r;
