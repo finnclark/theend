@@ -18,9 +18,17 @@ h2{
 	color: #272727;
 	margin: 0;
 }
+h3{
+	font-family: "chicago", Monaco, sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #272727;
+	margin: 0;
+}
 
 p{
 	font-family: Monaco, sans-serif;
+	line-height: 1.8;
 }
 
 i{
@@ -488,8 +496,65 @@ ul, li{
 	padding: 0;
 }
 
+.progress-body-copy, .progress-header{
+	text-align: center;
+	width: 900px;
+	margin: 0 auto;
+}
+
+.progress-header{
+	margin: 240px auto 240px;
+}
+
+.progress-header p{
+	width: 600px;
+	text-align: left !important;
+	margin: 60px auto;
+}
+
+.progress-container h3{
+	display: inline-block;
+	height: 100%;
+	text-align: center;
+}
+
+.progress-body-copy{
+	text-align: left;
+}
+
+.progress-body-copy h3{
+	margin: 0 0 30px;
+}
+
+.progress-body-copy a{
+	border-bottom: 2px solid #272727;
+}
+.progress-body-copy a:hover{
+	border-bottom: none;
+}
+
+.progress-body-copy span{
+	font-family: "chicago", Monaco, sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #272727;
+	margin: 0;
+}
+
+.progress-body-copy i{
+	font-style: italic;
+}
+
+.progress-body-copy img{
+	margin: 0 0 10px;
+	width: 100%;
+}
+
+
+
+
 #instafeed{
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	right: 0;
 	height: 100px;
