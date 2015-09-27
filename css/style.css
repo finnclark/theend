@@ -368,10 +368,6 @@ ul, li{
 
 
 
-
-
-
-
 @media (max-width: 1050px){
 	.links-cover{
 		width: 200%;
@@ -490,50 +486,52 @@ ul, li{
 
 
 
-.progress-container{
+.page-container{
 	height: 100vh;
 	margin: 0;
 	padding: 0;
 }
 
-.progress-body-copy, .progress-header{
+.page-body, .page-header{
 	text-align: center;
 	width: 900px;
 	margin: 0 auto;
 }
 
-.progress-header{
+.page-header{
 	margin: 240px auto 240px;
+	padding: 0;
+	border: none;
 }
 
-.progress-header p{
+.page-header p{
 	width: 600px;
 	text-align: left !important;
 	margin: 60px auto;
 }
 
-.progress-container h3{
+.page-container h3{
 	display: inline-block;
 	height: 100%;
 	text-align: center;
 }
 
-.progress-body-copy{
+.page-body{
 	text-align: left;
 }
 
-.progress-body-copy h3{
+.page-body h3{
 	margin: 0 0 30px;
 }
 
-.progress-body-copy a{
+.page-container a{
 	border-bottom: 2px solid #272727;
 }
-.progress-body-copy a:hover{
+.page-container a:hover{
 	border-bottom: none;
 }
 
-.progress-body-copy span{
+.page-container span{
 	font-family: "chicago", Monaco, sans-serif;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -541,11 +539,11 @@ ul, li{
 	margin: 0;
 }
 
-.progress-body-copy i{
+.page-container i{
 	font-style: italic;
 }
 
-.progress-body-copy img{
+.page-container img{
 	margin: 0 0 10px;
 	width: 100%;
 }
@@ -559,7 +557,7 @@ ul, li{
 	right: 0;
 	height: 100px;
 	width: 100%;
-	padding: 0;
+	padding: 100px 0 0 0;
 	margin: 0 auto;
 	text-align: right;
 }
@@ -573,6 +571,60 @@ ul, li{
 	height: 100px;
 }
 
+
+
+
+
+/*About*/
+
+
+
+.about-container .page-header p{
+	margin: 0;
+}
+
+.about-container .page-header h3{
+	margin-bottom: 100px;
+}
+
+
+
+/*media queries - pages*/
+
+
+@media (max-width: 991px){
+	.page-body, .page-header{
+		width: 500px;
+	}
+
+	.page-header{
+		margin-bottom: 200px;
+	}
+
+	.page-header p{
+		width: 550px;
+		margin-bottom: 0;
+	}
+
+	.page-body p{
+		margin-bottom: 60px;
+	}
+}
+
+
+@media (max-width: 620px){
+	.page-body{
+		width: 100%;
+	}
+
+	.page-header, .page-header p{
+		width: 85%;
+	}
+
+	.page-body p{
+		margin-bottom: 60px;
+	}
+}
 
 
 

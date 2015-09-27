@@ -14,6 +14,7 @@
 	<script type="text/javascript" src="js/jquery.countdownTimer.js"></script>
 	<script type="text/javascript" src="js/jquery.typer.js"></script>
 	<script type="text/javascript" src="js/sticky.min.js"></script>
+	<script type="text/javascript" src="js/instafeed.js"></script>
 </head>
 <body>
 
@@ -35,15 +36,42 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="row">
 
 			<div class="header header-small">
-				<div class="col-md-6 main-title-small">
+				<div class="col-md-6 col-sm-6 col-xs-6 main-title-small">
 					<h1><a href="http://theendofgraphicdesign.co.nz/">The End <i data-typer-targets="of graphic design_,of illustration_,of the world_,of composition_,of photography_,of life drawing_,of students_,of computers_"></i></a></h1>
 				</div>
 
-				<div class="navigation triggers col-md-6">
+				<div class="navigation triggers col-md-6 col-sm-6 col-xs-6">
 					<a class="contact-trigger" href="contact"><img src="img/speak.png"><span>Contact</span></a>
 					<a class="progress-trigger" href="progress"><img src="img/bomb.png"><span>Progress</span></a>
 					<a class="people-trigger" href="people"><img src="img/machappy.png"><span>People</span></a>
 					<a class="about-trigger active" href="about"><img src="img/package.png"><span>About</span></a>
+				</div>
+			</div>
+
+			<div class="page-container about-container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="page-header">
+
+							<div class="col-md-12">
+								<h3>The brand &amp; the story</h3>
+							</div>
+
+							<div class="col-md-9">
+								<p>A blog of sorts, showing both the large and small parts being played to bring together an exhibition worth remembering.</p>
+							</div>
+
+							<div class="col-md-3">
+								<img src="img/progress/branding/CoreMeeting-5.jpg">
+								<img src="img/progress/branding/CoreMeeting-8.jpg">
+								<img src="img/progress/branding/CoreMeeting-10.jpg">
+							</div>
+
+						</div>
+					</div>
+
+
+					<div class="col-md-12" id="instafeed"></div>
 				</div>
 			</div>
 
@@ -55,6 +83,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		
 		</div>
 	</div>
+	<script type="text/javascript">
+	    var feed = new Instafeed({
+	        get: 'user',
+	        // clientId: 'c1c37c73f68c4fae84038da4e8dd3420'
+	        userId: 2176364431,
+	        accessToken: '2176364431.467ede5.81ad2928fa414a379a5cfd1988f02808'
+	    });
+	    feed.run();
+	</script>
 
 	<script>
 		$(function () { $('[data-typer-targets]').typer(); });
