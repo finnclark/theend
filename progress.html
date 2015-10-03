@@ -37,7 +37,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 			<div class="header header-small">
 				<div class="col-md-6 col-sm-6 col-xs-6 main-title-small">
-					<h1><a href="http://theendofgraphicdesign.co.nz/">The End <i data-typer-targets="of graphic design_,of illustration_,of the world_,of composition_,of photography_,of life drawing_,of students_,of computers_"></i></a></h1>
+					<h1><a class="home-link" href="http://theendofgraphicdesign.co.nz/">The End <i data-typer-targets="of graphic design_,of illustration_,of the world_,of composition_,of photography_,of life drawing_,of students_,of computers_"></i></a></h1>
 				</div>
 
 				<div class="navigation triggers col-md-6 col-sm-6 col-xs-6">
@@ -122,6 +122,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				$(".colour-picker li ul").toggle();
 			});
 		}
+	</script>
+
+	<script type="text/javascript">
+		$(".home-link").on('click', function(){
+		     window.location = "http://www.theendofgraphicdesign.co.nz/";    
+		});
 	</script>
 
 	<script type="text/javascript">
