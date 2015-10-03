@@ -639,6 +639,9 @@ ul, li{
 	.countdown-small{
 		display: none;
 	}
+	.countdown-people{
+		display: inherit; !important;
+	}
 
 	.letter-links{
 		text-align: center;
@@ -819,7 +822,7 @@ ul, li{
 	}
 
 	.page-header, .page-header p{
-		width: 85% !important;
+		width: 92% !important;
 	}
 
 	.page-header{
