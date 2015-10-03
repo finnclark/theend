@@ -144,8 +144,11 @@ ul, li{
 
 .people-trigger{
 	position: absolute;
-	left: 1000px;
+	right: 400px;
 	top: 40px;
+}
+.people-trigger:hover{
+	margin-right: -3px;
 }
 
 .progress-trigger{
@@ -156,9 +159,136 @@ ul, li{
 
 .contact-trigger{
 	position: absolute;
-	left: 1200px;
+	right: 200px;
 	top: 395px;
 }
+
+
+
+/* HOME MEDIA QUERIES */
+
+@media (max-width: 991px){
+
+	.home-nav-small{
+		display: inline-block;
+		position: fixed;
+	}
+
+	.home-nav-small a{
+		position: initial;
+		float: right;
+		margin: 35px 30px !important;
+	}
+
+	.home-nav-small span{
+		position: absolute !important;
+		border: none !important;
+		padding: 0;
+		font-size: 12px;
+		margin-top: 10px;
+	}
+
+	.home-nav-small a:hover > img {
+		border-bottom: 2px solid black;
+	    padding-bottom: 15px;
+	    width: auto;
+	    min-height: 47px;
+	}
+
+	.home-nav-small img{
+		height: 30px;
+	}
+
+
+	.home-nav-small .about-trigger span{
+		margin-left: -2px;
+	}
+
+	.home-nav-small .people-trigger span{
+		margin-left: -9px;
+	}
+
+	.home-nav-small .progress-trigger span{
+		margin-left: -12px;
+	}
+
+	.home-nav-small .contact-trigger span{
+		margin-left: -9px;
+	}
+	
+}
+
+@media (max-width: 991px){
+	#countdowntimer span{
+		font-size: 40px;
+	}
+
+	#countdowntimer img{
+		width: 40px;
+		margin-bottom: -18px;
+	}
+}
+
+@media (max-width: 767px){
+	.header h1{
+		font-size: 20px;
+	}
+}
+
+
+
+
+
+/*Colour Picker*/
+
+.colour-picker img{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	width: 40px;
+	height: 40px;
+	margin: 0;
+}
+.colour-picker img:hover{
+	height: 60px;
+	border-top: 20px solid transparent;
+}
+
+
+.colour-picker ul ul {
+	display: none;
+	position: fixed;
+	right: 35px;
+	bottom: 80px;
+}
+
+.colour-picker ul ul li{
+	display: block;
+}
+
+.colour-picker ul ul a{
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #272727;
+	margin-top: -1px;
+}
+
+.colour-picker ul ul .colour-pick-one{
+	background-color: rgb(195,203,207);
+}
+.colour-picker ul ul .colour-pick-two{
+	background-color: rgb(208,202,180);
+}
+.colour-picker ul ul .colour-pick-three{
+	background-color: #F4F4F4;
+}
+
+.colour-picker li:hover ul{
+	display: block;
+}
+
+
 
 
 
@@ -681,7 +811,11 @@ ul, li{
 
 
 
+/* HOME MEDIA QUERIES */
 
+@media (max-width: 1290px){
+
+}
 
 
 
