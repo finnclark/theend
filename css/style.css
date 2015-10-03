@@ -707,6 +707,7 @@ ul, li{
 
 .page-body h3{
 	margin: 0 0 30px;
+	padding: 0;
 }
 
 .page-container a{
@@ -737,19 +738,20 @@ ul, li{
 
 
 #instafeed{
-	position: relative;
-	bottom: 0;
-	right: 0;
+	position: absolute;
+	bottom: 0px;
+	right: 100px;
 	height: 100px;
 	width: 100%;
-	padding: 100px 0 0 0;
+	padding: 0;
 	margin: 0 auto;
+	padding-top: 30px;
 	text-align: right;
 }
 
 #instafeed img{
-	width: 100px;
-	height: 100px;
+	width: 70px;
+	height: 70px;
 }
 
 
@@ -758,9 +760,8 @@ ul, li{
 
 /*About*/
 
-
 .about-title{
-	margin-top: -100px;
+	margin-bottom: 70px;
 }
 
 .about-container .page-header{
@@ -788,13 +789,37 @@ ul, li{
 }
 
 
+/* Contact */
+
+
+.contact-block{
+	width: 800px;
+	text-align: left;
+	margin: 230px auto 260px;
+	padding: 0;
+	border: none;
+}
+
+.contact-block p{
+	margin-bottom: 20px;
+	padding-top: 4px;
+}
+
+
+
+
 
 /*media queries - pages*/
+
 
 
 @media (max-width: 991px){
 	.page-body, .page-header{
 		width: 500px !important;
+	}
+
+	.contact-block{
+		width: 650px;
 	}
 
 	.page-header{
@@ -818,14 +843,14 @@ ul, li{
 
 @media (max-width: 620px){
 	.page-body{
-		width: 100%;
+		width: 100% !important;
 	}
 
-	.page-header, .page-header p{
+	.page-header, .page-header p, .contact-block{
 		width: 92% !important;
 	}
 
-	.page-header{
+	.page-header, .contact-block{
 		margin-top: 260px;
 	}
 
@@ -851,7 +876,37 @@ ul, li{
 		right: 20px;
 		bottom: 60px;
 	}
+
+	.page-container h3{
+		padding: 0 15px;
+	}
+
+	.contact-block h3{
+		padding: 0;
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -12,7 +12,7 @@
                 links: !0,
                 mock: !1,
                 useHttp: !0,
-                limit: 8
+                limit: 9
             };
             if (typeof e == "object")
                 for (n in e) r = e[n], this.options[n] = r;

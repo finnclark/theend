@@ -14,6 +14,7 @@
 	<script type="text/javascript" src="js/jquery.countdownTimer.js"></script>
 	<script type="text/javascript" src="js/jquery.typer.js"></script>
 	<script type="text/javascript" src="js/sticky.min.js"></script>
+	<script type="text/javascript" src="js/instafeed.js"></script>
 </head>
 <body>
 
@@ -44,6 +45,51 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<a class="progress-trigger" href="progress"><img src="img/bomb.png"><span>Progress</span></a>
 					<a class="people-trigger" href="people"><img src="img/machappy.png"><span>People</span></a>
 					<a class="about-trigger" href="about"><img src="img/package.png"><span>About</span></a>
+				</div>
+			</div>
+
+			<div class="page-container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="contact-block">
+
+							<div class="col-md-12 about-title">
+								<h3>Find us here</h3>
+							</div>
+
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<h3>facebook_</h3>
+							</div>
+
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<p><a href="http://www.facebook.com/theendofgraphicdesign">theendofgraphicdesign</a></p>
+							</div>
+
+							<br>
+
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<h3>instagram_</h3>
+							</div>
+
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<p><a href="http://www.instagram.com/theendofgraphicdesign">@theendofgraphicdesign</a></p>
+							</div>
+
+							<br>
+
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<h3>email_</h3>
+							</div>
+
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<p><a href="">teogd@gmail.com</a></p>
+							</div>
+
+						</div>
+					</div>
+
+
+					<div class="col-md-12" id="instafeed"></div>
 				</div>
 			</div>
 
@@ -109,6 +155,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				$(".colour-picker li ul").toggle();
 			});
 		}
+	</script>
+
+	<script type="text/javascript">
+	    var feed = new Instafeed({
+	        get: 'user',
+	        // clientId: 'c1c37c73f68c4fae84038da4e8dd3420'
+	        userId: 2176364431,
+	        accessToken: '2176364431.467ede5.81ad2928fa414a379a5cfd1988f02808'
+	    });
+	    feed.run();
 	</script>
 
 	<script>
