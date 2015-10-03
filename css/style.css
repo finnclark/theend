@@ -684,7 +684,8 @@ ul, li{
 .page-container h3{
 	display: inline-block;
 	height: 100%;
-	text-align: center;
+	text-align: left;
+	line-height: 1.6;
 }
 
 .page-body{
@@ -811,6 +812,9 @@ ul, li{
 		width: 85% !important;
 	}
 
+	.page-header{
+		margin-top: 260px;
+	}
 
 	.about-body p{
 		width: 100% !important;
