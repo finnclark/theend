@@ -5,6 +5,11 @@
 	src: url(../fonts/ChicagoFLF.ttf);
 }
 
+@font-face {
+	font-family: chicago;
+	src: url(../fonts/monaco.ttf);
+}
+
 h1{
 	font-family: "chicago", Monaco, sans-serif;
 	font-size: 25px;
@@ -27,7 +32,7 @@ h3{
 }
 
 p{
-	font-family: Monaco, sans-serif;
+	font-family: "Monaco", sans-serif;
 	line-height: 1.8;
 }
 
@@ -113,7 +118,7 @@ ul, li{
 
 .triggers span{
 	width: inherit;
-	font-family: Monaco;
+	font-family: "Monaco";
 	display: block;
 	text-align: left;
 	margin-top: 20px;
