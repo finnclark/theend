@@ -647,6 +647,16 @@ ul, li{
 		padding: 22px 0 0 0;
 	}
 
+	.letter-links a{
+		margin: 0 1px;
+	}
+
+
+	#people-temp p{
+		width: 100% !important;
+	}
+
+
 }
 
 
@@ -837,10 +847,6 @@ ul, li{
 	.colour-picker ul ul {
 		right: 20px;
 		bottom: 60px;
-	}
-
-	.hide-text{
-		width: 100%;
 	}
 }
 
