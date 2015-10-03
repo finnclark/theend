@@ -734,6 +734,9 @@ ul, li{
 	width: 100%;
 }
 
+.progress-page #instafeed{
+	display: none;
+}
 
 
 
