@@ -838,6 +838,10 @@ ul, li{
 		right: 20px;
 		bottom: 60px;
 	}
+
+	.hide-text{
+		width: 100%;
+	}
 }
 
 
