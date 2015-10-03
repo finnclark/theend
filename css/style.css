@@ -32,7 +32,7 @@ h3{
 }
 
 p{
-	font-family: "Monaco", sans-serif;
+	font-family: "Monaco", sans-serif !important;
 	line-height: 1.8;
 }
 
