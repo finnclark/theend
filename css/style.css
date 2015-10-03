@@ -253,6 +253,7 @@ ul, li{
 	width: 40px;
 	height: 40px;
 	margin: 0;
+	cursor: pointer;
 }
 .colour-picker img:hover{
 	height: 60px;
@@ -486,6 +487,7 @@ ul, li{
 
 .letter-links a{
 	border: none !important;
+	margin: 0 2px;
 }
 
 .letter-links a:hover{
@@ -618,8 +620,8 @@ ul, li{
 	}
 
 	.navigation a{
-		float: right;
-		margin: 60px 30px 0 0 !important;
+		float: left;
+		margin: 60px 30px 0 15px !important;
 	}
 	.navigation a:first-child{
 		margin: 60px 15px 0 0;
@@ -731,10 +733,6 @@ ul, li{
 	text-align: right;
 }
 
-#instafeed a{
-	;
-}
-
 #instafeed img{
 	width: 100px;
 	height: 100px;
@@ -782,7 +780,7 @@ ul, li{
 
 @media (max-width: 991px){
 	.page-body, .page-header{
-		width: 500px;
+		width: 500px !important;
 	}
 
 	.page-header{
@@ -792,6 +790,10 @@ ul, li{
 	.page-header p{
 		width: 550px;
 		margin-bottom: 0;
+	}
+
+	.about-body p{
+		width: 100% !important;
 	}
 
 	.page-body p{
@@ -806,11 +808,31 @@ ul, li{
 	}
 
 	.page-header, .page-header p{
-		width: 85%;
+		width: 85% !important;
+	}
+
+
+	.about-body p{
+		width: 100% !important;
 	}
 
 	.page-body p{
 		margin-bottom: 60px;
+	}
+
+	.colour-picker img{
+		bottom: 15px;
+		right: 15px;
+	}
+
+	.colour-picker img:hover{
+		border-top: 20px solid transparent;
+	}
+
+
+	.colour-picker ul ul {
+		right: 20px;
+		bottom: 60px;
 	}
 }
 
