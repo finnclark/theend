@@ -660,6 +660,24 @@ ul, li{
 	}
 
 
+	.home-nav-small{
+		padding-left: 25px;
+	}
+
+	.home-nav-small a{
+		margin: 35px 20px !important;
+	}
+
+	#countdowntimer span{
+		font-size: 34px
+	}
+
+	#countdowntimer img{
+		width: 35px;
+		margin-bottom: -23px;
+	}
+
+
 }
 
 
