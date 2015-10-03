@@ -752,6 +752,10 @@ ul, li{
 	width: 100%;
 }
 
+.progress-page .page-body h3{
+	padding: 0 !important;
+}
+
 .progress-page #instafeed{
 	display: none;
 }
