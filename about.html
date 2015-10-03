@@ -160,6 +160,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	</script>
 
 	<script type="text/javascript">
+		if ( $(window).width() > 800) {
+
+		}
+		else {
+			$(".colour-picker ul").click(function(){
+				$(".colour-picker li ul").toggle();
+			});
+		}
+	</script>
+
+	<script type="text/javascript">
 	    var feed = new Instafeed({
 	        get: 'user',
 	        // clientId: 'c1c37c73f68c4fae84038da4e8dd3420'
