@@ -6,25 +6,25 @@
 }
 
 @font-face {
-	font-family: chicago;
+	font-family: monaco;
 	src: url(../fonts/monaco.ttf);
 }
 
 h1{
-	font-family: chicago, Monaco, sans-serif;
+	font-family: "chicago", "monaco", sans-serif;
 	font-size: 25px;
 	text-transform: uppercase;
 	color: #272727;
 }
 h2{
-	font-family: chicago, Monaco, sans-serif;
+	font-family: "chicago", "monaco", sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	color: #272727;
 	margin: 0;
 }
 h3{
-	font-family: chicago, Monaco, sans-serif;
+	font-family: "chicago", "monaco", sans-serif;
 	font-size: 18px;
 	text-transform: uppercase;
 	color: #272727;
@@ -32,7 +32,7 @@ h3{
 }
 
 p{
-	font-family: "Monaco", sans-serif !important;
+	font-family: "monaco", sans-serif !important;
 	line-height: 1.8;
 }
 
@@ -98,7 +98,7 @@ ul, li{
 	color: #272727;
 	background-color: transparent;
 	border: none;
-	font-family: "chicago", Monaco, sans-serif;
+	font-family: "chicago", "monaco", sans-serif;
 	font-size: 60px;
 	margin: 0 auto;
 	display: inline;
@@ -118,7 +118,7 @@ ul, li{
 
 .triggers span{
 	width: inherit;
-	font-family: "Monaco";
+	font-family: "monaco";
 	display: block;
 	text-align: left;
 	margin-top: 20px;
@@ -701,7 +701,7 @@ ul, li{
 }
 
 .page-container span{
-	font-family: "chicago", Monaco, sans-serif;
+	font-family: "chicago", "monaco", sans-serif;
 	font-size: 12px;
 	text-transform: uppercase;
 	color: #272727;
@@ -814,13 +814,6 @@ ul, li{
 	}
 }
 
-
-
-/* HOME MEDIA QUERIES */
-
-@media (max-width: 1290px){
-
-}
 
 
 
