@@ -486,7 +486,7 @@ ul, li{
 	padding-top: 30px;
 	height: 80px;
 	z-index: 100;
-	background-color: #F4F4F4;
+	background-color: #C3CBCF;
 	text-align: center;
 	position: fixed;
 	bottom: 0;
@@ -502,6 +502,10 @@ ul, li{
 }
 
 
+
+.people-temp .page-header{
+	margin-top: 300px !important;
+}
 
 
 .people-temp .letter-links p{
