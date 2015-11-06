@@ -418,6 +418,9 @@ ul, li{
 
 /*People Page*/
 
+.people-background{
+	background-color: #F4F4F4;
+}
 
 .people-container{
 	width: 880px;
@@ -440,8 +443,24 @@ ul, li{
 }
 
 .people-container h2, .student-links ul{
-	padding-top: 230px;
+	padding-top: 228px;
 	margin-top: -230px;
+}
+
+.project-kind{
+	font-family: 'chicago', sans-serif !important;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	margin-top: -3px !important;
+	cursor: pointer;
+	margin-right: 300px !important;
+}
+
+.project-name{
+	font-size: 10px;
+    padding-bottom: 20px;
+    margin-top: -7px !important;
+    visibility: hidden;
 }
 
 .student-image-column{
@@ -476,9 +495,9 @@ ul, li{
 .links-cover{
 	background-color: #F4F4F4;
 	z-index: 8888;
-	margin-top: -150px;
+	margin-top: -189px;
 	width: 320%;
-	height: 140px;
+	height: 200px;
 }
 
 .letter-links{
@@ -486,7 +505,7 @@ ul, li{
 	padding-top: 30px;
 	height: 80px;
 	z-index: 100;
-	background-color: #C3CBCF;
+	background-color: #F4F4F4;
 	text-align: center;
 	position: fixed;
 	bottom: 0;
@@ -554,7 +573,7 @@ ul, li{
 
 @media (max-width: 991px){
 	.links-cover{
-		width: 100%;
+		width: 106%;
 	}
 
 	.people-container{
@@ -643,7 +662,7 @@ ul, li{
 
 	.navigation a{
 		float: left;
-		margin: 60px 30px 0 15px !important;
+		margin: 35px 30px 0 15px !important;
 	}
 	.navigation a:first-child{
 		margin: 60px 15px 0 0;
